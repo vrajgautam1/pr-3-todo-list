@@ -1,0 +1,95 @@
+/* General Page Styling */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #c8e3ff; /* Bootstrap Primary Blue */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Form Styling */
+main {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+input.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+}
+
+button.btn-primary {
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Table Styling */
+table {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 12px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    button.btn-primary {
+        width: 100%;
+    }
+}
+
+.completedRow,
+.completedRow td,
+.completedRow a {
+    background-color: #d3d3d3 !important;  /* Light grey */
+    color: #6c757d; 
+}
+
+.completedRow a{
+    border: 1px solid #5a5a5a
+}
